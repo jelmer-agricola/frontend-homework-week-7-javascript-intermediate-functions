@@ -126,23 +126,27 @@ console.log(averageGradeThree.toFixed(1));
 // ---- Verwachte uitkomst: 9
 
 function highestGrade(gradesArray) {
-    let highest = 0;
+    let number = 0;
+
+
 
     for (let i = 0; i < gradesArray.length; i++) {
+// wat gradesArray.length dus doet is blijven loopen ook als de array groter wordt. Als je er een getal neerzet blift de array namelijk alleen maar loopen tot dei bepaalde index.
 
-
-        if (gradesArray[i] > highest) {
-            highest = gradesArray[i];
+        if (gradesArray[i] > number) {
+            number = gradesArray[i];
         }
     }
 
-    return highest;
+    return number;
 }
 
 
 const highestGradeOne = highestGrade(grades);
-const highestGradeTwo = highestGrade([6, 4, 5]);
+const highestGradeTwo = highestGrade([6, 4, 5, 111]);
 const highestGradeThree = highestGrade([8, 9, 4, 6, 10]);
+
+
 
 console.log(highestGradeOne);
 console.log(highestGradeTwo);
