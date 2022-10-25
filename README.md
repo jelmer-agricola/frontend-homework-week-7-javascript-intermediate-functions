@@ -1,3 +1,5 @@
+PR https://github.com/jelmer-agricola/frontend-homework-week-7-javascript-intermediate-functions/pull/1
+
 # Opdracht beschrijving
 
 Deze opdracht bestaat uit meerdere opdrachtjes om met functies, scope en for-loops te kunnen oefenen. Om de opdracht te maken kun je de opdracht clonen of downloaden naar jouw eigen computer.
@@ -40,4 +42,4 @@ Als je de code wil runnen kun je dit doen door het volgende in de terminal in te
 
 Als je wisselt van bestand moet je nodemon eerst stoppen (ctrl + c voor zowel Windows als Mac) en dan opnieuw starten met de nieuwe bestandsnaam, zoals bijvoorbeeld:
 
-nodemon `functions-and-scope.js`
+nodemon `functions-and-scope.js` ok
